@@ -3,11 +3,14 @@ import propTypes from 'prop-types';
 import './Album.css';
 
 const Album = props => (
-  <div>
-    <h2>{props.album}</h2>
-    <img src={props.imageUrl} />
-    <p>Release date: {props.releaseDate}</p>
-    <p>Genre: {props.genre}</p>
+  <div class="container">
+    <div class="article">
+      <h2>{props.album}</h2>
+      <img src={props.imageUrl} alt={props.alt} />
+      <p>Release date: {props.releaseDate}</p>
+      <p>Genre: {props.genre}</p>
+      <a href={props.link} target="blanket"><button>Watch</button></a>
+    </div>
   </div>
 );
 
@@ -18,4 +21,4 @@ Album.propTypes = {
   genre: propTypes.string.isRequired
 };
 
-export default App;
+export default Album;
