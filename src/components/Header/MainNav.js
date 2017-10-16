@@ -12,7 +12,7 @@ const MainNav = () => (
             <nav className="navbar navbar-inverse">
                     <div className="container">
                         <div className="navbar-header">
-                            <a className="navbar-brand" href="/">Boncy Albums</a>
+                        <a className="navbar-brand" href="/">Beyoncé Albums</a>
                         </div>
                         <span className="drop-menu glyphicon glyphicon-menu-hamburger hidden-lg hidden-md hidden-sm"></span>
                             <ul className="nav navbar-nav">
