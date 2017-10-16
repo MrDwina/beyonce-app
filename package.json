@@ -1,5 +1,6 @@
 {
   "name": "beyonce-app",
+  "homepage": "https://mrdwina.github.io/beyonce-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "homepage": "https://myusername.github.io/beyonce-app"
+    "eject": "react-scripts eject"
   }
 }
