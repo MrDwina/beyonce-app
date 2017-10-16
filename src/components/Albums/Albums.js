@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Album from "../Album/Album";
+import Loader from '../Loader/Loader';
+
 
 class Albums extends Component {
   
@@ -22,6 +24,7 @@ class Albums extends Component {
   }
     render() {
       return <div className="album-back" >
+        <Loader />
         <div className="container">
           <div className="row">
             {this.state.albums.map((item) => {
