@@ -13,7 +13,7 @@ const Home = () => (
             <div class="header-content text-md-center">
                 <h1>Welcome To Beyoncé <strong>Website</strong></h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id temporibus perferendis necessitatibus numquam amet impedit explicabo? Debitis quasi ullam aperiam!</p>
-                <a class="btn">Find Out More</a>
+                <a class="btn" href="/About">Find Out More</a>
             </div>
         </header>
 
