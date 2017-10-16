@@ -1,5 +1,5 @@
 import React from "react";
-import Albums from "../Albums/Albums";
+import Albums from "../../containers/Albums/Albums";
 import { BrowserRouter as Router, Route, Link, } from "react-router-dom";
 import Home from "../Home/Home";
 import About from "../About/About";
