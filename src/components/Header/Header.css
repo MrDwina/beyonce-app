@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #000 !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+    border: none !important;
+    min-height: 55px !important;
+    z-index: 3;
+    border-bottom: 2px solid #920707 !important;
+}
+
+.navbar  .container{
+    padding-left: -15px !important;
+    padding-right: -15px !important;
+}
+.navbar-brand {
+    height: 55px;
+    padding: 19px 15px !important;
+}
+
+.navbar .navbar-nav{
+    font-size: 18px;
+    padding-top: 4px !important;
+    float: right;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px){
+    .navbar .navbar-nav{
+        float: none;
+    }
+}
