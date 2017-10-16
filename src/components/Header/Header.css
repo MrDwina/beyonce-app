@@ -14,12 +14,12 @@
 }
 .navbar-brand {
     height: 55px;
-    padding: 19px 15px !important;
+    padding: 17px 15px !important;
 }
 
 .navbar .navbar-nav{
     font-size: 18px;
-    padding-top: 4px !important;
+    padding-top: 2px !important;
     float: right;
     margin-bottom: 0;
 }
@@ -27,5 +27,22 @@
 @media (max-width: 767px){
     .navbar .navbar-nav{
         float: none;
+        display: none;
+    }
+    .navbar .drop-menu{
+        font-size: 30px;
+        background: #333;
+        padding: 5px;
+        border-radius: 4px;
+        color: #fff;
+        position: absolute;
+        right: 15px;
+        top: 7px;
+        transition: all .5s ease-in-out
+    }
+
+    .navbar .drop-menu:hover{
+        background: #fff;
+        color: #000;
     }
 }

@@ -14,17 +14,18 @@ const MainNav = () => (
                         <div className="navbar-header">
                             <a className="navbar-brand" href="/">Boncy Albums</a>
                         </div>
-                        <ul className="nav navbar-nav">
-                            <li>
-                            <Link exact="true" to="/" >Home</Link >
-                            </li>
-                            <li>
-                                <Link to="/About" >About</Link >
-                            </li>
-                            <li>
-                                <Link to="/Albums"  >Albums</Link >
-                            </li>
-                        </ul>
+                        <span className="drop-menu glyphicon glyphicon-menu-hamburger hidden-lg hidden-md hidden-sm"></span>
+                            <ul className="nav navbar-nav">
+                                <li>
+                                    <Link exact="true" to="/" >Home</Link >
+                                </li>
+                                <li>
+                                    <Link to="/About" >About</Link >
+                                </li>
+                                <li>
+                                    <Link to="/Albums"  >Albums</Link >
+                                </li>
+                            </ul>
                     </div>
             </nav>
             <Route path="/" exact component={Home} />

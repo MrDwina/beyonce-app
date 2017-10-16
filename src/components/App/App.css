@@ -10,43 +10,7 @@ body{
   line-height:1.5;
   overflow-x:hidden;
 }
-.about{
-    background: #333;
-}
 
-.about h1{
-    color: #fff;
-    padding-bottom: 10px;
-}
-
-.about .jumbotron h3{
-    color: #000;
-}
-
-
-
-/* .nav{
-    height: 50px;
-    background: #000;
-    
-    width: 100%;
-}
-.nav ul{
-    padding-top: 11px;
-}
-.nav ul li{
-    display: inline-block;
-}
-.nav ul li a{
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-}*/
-
-.navbar-nav .active{
-    background: #cc0000;
-    padding: 14px 6px 14px 6px;
-} 
 /************ Home Page ************/
 .home-info{
     background: #e5e3e3;
