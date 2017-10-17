@@ -3,13 +3,22 @@ import "bootstrap/dist/css/bootstrap.css"
 import './ContactFormControler.css'
 class ContactFormControler extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            name: 'Put your full name',
-            email: 'Put your name',
-            message: 'Leave your message'
-        }
+
+    state = {
+        name: '',
+        email: '',
+        message: ''
+    }
+
+    change = e => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+
+    onSubmit = (e) => {
+        console.log(this.state);
+        e.preventDefault();
     }
 
     render() {
@@ -27,7 +36,7 @@ class ContactFormControler extends Component {
                                             <label>Name:</label>
                                         </div>
                                             <div className="col-lg-10 col-md-10 col-sm-10">
-                                                <input className="form-control" onChange={e => this.setState({ name: e.target.value })} type="text" value={this.state.name} placeholder={this.state.name} />
+                                                <input className="form-control" name="name" onChange={e => this.change(e)} type="text" value={this.state.name} placeholder="Full name" />
                                         </div>
                                     </div>                                                                                                         
                                 </div>
@@ -37,21 +46,21 @@ class ContactFormControler extends Component {
                                             <label>Email:</label>
                                         </div>
                                             <div className="col-lg-10 col-md-10 col-sm-10">
-                                                <input className="form-control" onChange={e => this.setState({ email: e.target.value })} type="email" value={this.state.email} placeholder={this.state.email} />
+                                                <input className="form-control" name="email" onChange={e => this.change(e)} type="email" value={this.state.email} placeholder="Your email" />
                                         </div>
                                     </div>                                                              
                                 </div>                          
                                 <div className="row">
                                     <div className="col-lg-12">
-                                            <textarea rows="10" className="form-control" onChange={e => this.setState({ message: e.target.value })} type="text" value={this.state.message} placeholder={this.state.message} ></textarea><br />
-                                        <button className="btn btn-info form-button" type="submit">Send</button>    
+                                            <textarea rows="10" className="form-control" name="message" onChange={e => this.change(e)} type="text" value={this.state.message} placeholder="Leave your message here" ></textarea><br />
+                                        <button onClick={e => this.onSubmit(e)} className="btn btn-info form-button" type="submit">Send</button>    
                                     </div>
                                 </div>                 
                             </div>    
                         </form>
                     </div >
                 </div>
-                </div>
+            </div>
         </div>
         );
     }

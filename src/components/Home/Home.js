@@ -34,7 +34,7 @@ const Home = () => (
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div className="home-article">
-                                        <img src="images/bey-2.jpg" className="img-responsive" />
+                                        <img src="images/bey-2.jpg" alt="beyonce" className="img-responsive" />
                                         <h1>Beyoncé</h1>
                                         <p>Beyoncé Giselle Knowles was born in Houston, Texas, to Celestine "Tina" Knowles (née Beyincé), a hairdresser and salon owner, and Mathew Knowles, a Xerox sales manager. Beyoncé's name is a tribute to her mother's maiden name. Beyoncé's younger sister Solange is also a singer and a former back up dancer for Destiny's Child. Solange and Beyoncé are the first sisters to have both had No. 1 albums.[26] Mathew is African American, while Tina is of Louisiana Creole descent (African, Native American, and French). Through her mother, Beyoncé is a descendant of Acadian leader Joseph Broussard.</p>
                                         <small>Source: Spotify</small><br /><br />
