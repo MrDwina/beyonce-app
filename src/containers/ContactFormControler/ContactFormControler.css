@@ -8,6 +8,17 @@
 .form-button{
     float: left;
 }
-.jumbotron{
+.contact-section .jumbotron{
     margin-top: 30px;
+    background: #333;
+}
+.jumbotron label{
+    color: #ddd;
+    margin-top: 8px;
+}
+form .row .form-group {
+    padding-left: 0 ;
+}
+form .row .form-group:nth-child(2) {
+    padding-right: 0 ;
 }
