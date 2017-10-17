@@ -1,0 +1,13 @@
+.contact-section{
+    background: #222;
+    padding-bottom: 30px;
+}
+.contact-section h3{
+    color: #ddd;
+}
+.form-button{
+    float: left;
+}
+.jumbotron{
+    margin-top: 30px;
+}

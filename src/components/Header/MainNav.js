@@ -1,8 +1,9 @@
-import React from "react";
-import Albums from "../../containers/Albums/Albums";
-import { BrowserRouter as Router, Route, Link, } from "react-router-dom";
-import Home from "../Home/Home";
-import About from "../About/About";
+import React from 'react';
+import Albums from '../../containers/Albums/Albums';
+import { BrowserRouter as Router, Route, Link, } from 'react-router-dom';
+import Home from '../Home/Home';
+import About from '../About/About';
+import ContactFormControler from '../../containers/ContactFormControler/ContactFormControler';
 import "./Header.css";
 
 
@@ -20,10 +21,13 @@ const MainNav = () => (
                                     <Link exact="true" to="/" >Home</Link >
                                 </li>
                                 <li>
-                                    <Link to="/About" >About</Link >
+                                    <Link to="/About">About</Link >
                                 </li>
                                 <li>
-                                    <Link to="/Albums"  >Albums</Link >
+                                    <Link to="/Albums">Albums</Link >
+                                </li>
+                                <li>
+                            <Link to="/ContactFormControler">Contact</Link >
                                 </li>
                             </ul>
                     </div>
@@ -31,6 +35,7 @@ const MainNav = () => (
             <Route path="/" exact component={Home} />
             <Route path="/About" component={About} />
             <Route path="/Albums" component={Albums} />
+            <Route path="/ContactFormControler" component={ContactFormControler} />
         </div>
     </Router>
 );

@@ -46,7 +46,6 @@
 }
 
 .header-content p{
-  font-size:1.5rem;
   display:block;
   padding-bottom:2rem;
 }
@@ -54,7 +53,7 @@
 .btn{
   background: #34b3a0;
   color:#fff;
-  font-size:1.2rem;
+  font-size:16px;
   padding: 1rem 2rem;
   text-decoration: none;
 }
@@ -82,7 +81,6 @@
   margin-bottom: 10px;
 }
 .contents .home-article p{
-  font-size: 16px;
   line-height: 1.5em;
 }
 
